@@ -3,7 +3,7 @@
 The Prime Game
 '''
 
-    
+
 def isWinner(x, nums):
     '''
     The function to determine the winner
@@ -31,4 +31,3 @@ def isWinner(x, nums):
     if p1 * 2 > len(nums):
         return "Maria"
     return "Ben"
-
